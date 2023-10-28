@@ -8,3 +8,5 @@ const Hero = (props: Props) => {
     <Image src="/user.png" alt="user" width={300} height={300} />
   </section>;
 };
+
+export default Hero;
