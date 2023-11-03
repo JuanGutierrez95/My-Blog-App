@@ -10,7 +10,9 @@ const Hero = (props: Props) => {
         <h1 className="text-2xl sm:text-4xl md:text-6xl md:leading-normal">
           Last News
         </h1>
-        <button className="text-white bg-indigo-500 px-4 py-2 border-2 rounded shadow-[0.25rem]">Browser articles</button>
+        <button className="text-white bg-indigo-500 px-4 py-2 border-2 rounded shadow-[0.25rem_0.25rem_0px_0px_rgba(0,0,0,1)]">
+          Browser articles
+        </button>
       </div>
       <div className="col-span-5 place-self-center">
         <Image src="/user.png" alt="user" width={300} height={300} />
